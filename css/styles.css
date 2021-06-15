@@ -45,7 +45,7 @@ body {
   background-position: center center;
   background-size: cover;
   padding-top: 105px;
-  padding-bottom: 168px;
+  padding-bottom: 200px;
 
 }
 
@@ -54,6 +54,9 @@ body {
   align-items: center;
 }
 
+.logolink:active {
+  opacity: 0.7;
+}
 .sitenav {
   margin-left: auto;
 }
@@ -86,6 +89,10 @@ body {
 .sitenav__link:hover {
   color: #2D314D;
 }
+.sitenav__link:active {
+  color: #2D314D;
+  opacity: 0.8 ;
+}
 
 .button {
   background-color: var(--blue);
@@ -107,6 +114,10 @@ body {
   border: 3px solid var(--blue);
   color: var(--blue);
   transition: 0.3s ease;
+}
+.button:active {
+  color: #2D314D;
+  opacity: 0.8 ;
 }
 .site-hero {
   width: 500px;
