@@ -1,3 +1,11 @@
+:root {
+  --black: #000;
+  --blue: #083C6E;
+  --light-blue: #E0EDFF;
+  --grey: #C4C4C4;
+  --light-grey: #E9E9E9:
+}
+
 html {
   box-sizing: border-box;
 }
@@ -7,17 +15,126 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
+.visually-heddin {
+  position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 body {
+  margin: 0;
   font-family: "Poppins", "Arial" , sans-serif;
-  
+
+
 
 }
 .container {
-  max-width: 1210px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1220px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+.site-header {
+  background-image: url(../img/hero-bg.png);
+  background-size: cover;
+  padding-top: 105px;
+  padding-bottom: 168px;
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.sitenav {
+  margin-left: auto;
+}
+.sitenav__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sitenav__list-item {
+  border-bottom: 3px solid transparent;
+  margin-right: 30px;
+  padding-bottom: 27px;
+  padding-top: 32px;
+}
+.sitenav__list-item:hover {
+  margin-right: 30px;
+  border-bottom: 3px solid var(--blue);
+
+}
+.sitenav__link {
+  font-family: "DM Sans", "Arial", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #9597A5;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+.sitenav__link:hover {
+  color: #2D314D;
+}
+
+.button {
+  background-color: var(--blue);
+  font-family: "DM Sans", "Arial", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 14px 50px;
+  color: #fff;
+  border: 3px solid transparent;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+
+
+}
+.button:hover {
+  background-color: #fff;
+  border: 3px solid var(--blue);
+  color: var(--blue);
+  transition: 0.3s ease;
+}
+.site-hero {
+  width: 500px;
+}
+.site-hero__heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 60px;
+  line-height: 84px;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: var(--black);
+  text-transform: uppercase;
+}
+.site__hero-text {
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+.hero-form {
+  padding: 12px 37px;
+  background-color: #F1F1F1;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  border: none;
+
+
+color: #747DA1;
 }
