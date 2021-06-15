@@ -17,6 +17,15 @@ html {
   box-sizing: inherit;
 }
 
+* {
+  list-style: none;
+}
+
+.benefits {
+  margin: 0;
+  padding: 0;
+}
+
 .visually-heddin {
   position: absolute;
     width: 1px;
@@ -667,7 +676,7 @@ body{
 .support-block{
   position: absolute;
   z-index: 2;
-  bottom: -100%;
+  bottom: -670%;
   left: 50%;
   transform: translateX(-50%);
   background: #F8F8F8;
