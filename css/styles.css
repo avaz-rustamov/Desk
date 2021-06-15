@@ -3,7 +3,7 @@
   --blue: #083C6E;
   --light-blue: #E0EDFF;
   --grey: #C4C4C4;
-  --light-grey: #E9E9E9:
+  --light-grey: #E9E9E9;
 }
 
 html {
@@ -42,6 +42,7 @@ body {
 }
 .site-header {
   background-image: url(../img/hero-bg.png);
+  background-position: center center;
   background-size: cover;
   padding-top: 105px;
   padding-bottom: 168px;
@@ -66,19 +67,17 @@ body {
 .sitenav__list-item {
   border-bottom: 3px solid transparent;
   margin-right: 30px;
-  padding-bottom: 27px;
-  padding-top: 32px;
+
 }
 .sitenav__list-item:hover {
   margin-right: 30px;
   border-bottom: 3px solid var(--blue);
-
 }
 .sitenav__link {
   font-family: "DM Sans", "Arial", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
-  color: #9597A5;
+  color: var(--blue);
   letter-spacing: 0.05em;
   font-weight: 600;
   font-size: 14px;
@@ -127,13 +126,14 @@ body {
   margin-bottom: 23px;
 }
 .hero-form {
-  padding: 12px 37px;
+  padding: 15px 37px;
   background-color: #F1F1F1;
   font-family: Rubik;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   border: none;
+  margin-right: -4px;
 
 
 color: #747DA1;
